@@ -12,7 +12,7 @@ stay = gets.chomp.capitalize  #don't forget to Capitilize the input
 puts "How many nights are you staying?"
 nights = gets.chomp.to_i
 puts "Where are you eating?"
-
+eat = gets.chomp
 # Lastly, puts it all back by interpolating these values in a string.
 
 puts "#{stay}, #{nights}, #{eat}"
